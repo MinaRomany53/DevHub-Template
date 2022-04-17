@@ -79,26 +79,6 @@
 .search__result {
   padding-top: 10rem;
 }
-.search__result .cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
-  gap: 4rem;
-  padding: 1rem;
-}
-@media (max-width: 786px) {
-  .search__result .cards {
-    grid-template-columns: 1fr;
-  }
-}
-.card {
-  background-color: #fff;
-  overflow: hidden;
-  border-radius: 0.5rem;
-  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
-}
-.card__body {
-  text-decoration: none;
-}
 .dev__profile {
   padding: 2rem 2.5rem 1rem 2.5rem;
   display: grid;
